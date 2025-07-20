@@ -1,17 +1,17 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 
-const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
+const projectId = process.env.6df62d9d6d7f970a718d2c916e26e5e5;
 if (!projectId) {
-  throw new Error("You need to provide NEXT_PUBLIC_PROJECT_ID env variable");
+  throw new Error("You need to provide 6df62d9d6d7f970a718d2c916e26e5e5 env variable");
 }
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const notifyApiSecret = process.env.NOTIFY_API_SECRET;
+  const notifyApiSecret = process.env.bba306b8-6585-4c4b-a8c6-bde5c71bdcea;
   if (!notifyApiSecret) {
-    throw new Error("You need to provide NOTIFY_API_SECRET env variable");
+    throw new Error("You need to provide bba306b8-6585-4c4b-a8c6-bde5c71bdcea env variable");
   }
 
   if (req.method !== "POST") {
