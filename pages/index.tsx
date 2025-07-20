@@ -29,7 +29,7 @@ import Subscription from "../components/Subscription";
 import { sendNotification } from "../utils/fetchNotify";
 import Subscribers from "../components/Subscribers";
 
-const projectId = process.env.NEXT_PUBLIC_PROJECT_ID as string;
+const projectId = process.env.6df62d9d6d7f970a718d2c916e26e5e5 as string;
 const appDomain = process.env.NEXT_PUBLIC_APP_DOMAIN as string;
 
 const Home: NextPage = () => {
